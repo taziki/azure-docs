@@ -164,7 +164,7 @@ Sign in to the [Azure portal](https://portal.azure.com/).
    * **conf-key** can be either
       `fs.azure.account.key.<\your-storage-account-name>.blob.core.windows.net` or `fs.azure.sas.<\your-container-name>.<\your-storage-account-name>.blob.core.windows.net`
    * **scope-name** is the name of the secret scope you created in the previous section. 
-   * **key-name** is the name of they secret you created for the storage account key in your key vault.
+   * **key-name** is the name of the secret you created for the storage account key in your key vault.
 
    ![Create blob storage mount in notebook](./media/store-secrets-azure-key-vault/command1.png)
 
